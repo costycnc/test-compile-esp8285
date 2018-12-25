@@ -19,7 +19,7 @@ https://github.com/plerup/makeEspArduino
 
 https://www.espressif.com/en/products/software/esp-sdk/resource
 
-https://github.com/pfalcon/esp-open-sdk
+https://github.com/pfalcon/esp-open-sdk ... https://github.com/jcmvbkbc/gcc-xtensa
 
 https://bbs.espressif.com/viewtopic.php?t=838
 
