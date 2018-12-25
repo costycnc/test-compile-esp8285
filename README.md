@@ -9,6 +9,8 @@ the package is installed in C:\Users\costycnc\AppData\Roaming\Arduino15
 
 __________________________________________________________________________
 
-Run compile o.bat and will be result two files 
+Run compile o.bat and will be result two files blink.cpp.o and blink.cpp.d
+
+
 
 
