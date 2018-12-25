@@ -1,5 +1,5 @@
 @echo off 
 cls
 
-objdump -SC %1  > %1.txt
+objdump -SC blink.cpp.o  > blink.cpp.txt
 pause
