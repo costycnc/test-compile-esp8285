@@ -17,6 +17,8 @@ https://github.com/esp8266/Arduino
 
 https://github.com/plerup/makeEspArduino
 
+https://www.espressif.com/en/products/software/esp-sdk/resource
+
 
 
 
