@@ -30,7 +30,7 @@ https://github.com/esp8266/Arduino
 
 https://github.com/plerup/makeEspArduino ... need make i i not have installed...
 
-https://www.espressif.com/en/products/software/esp-sdk/resource
+https://www.espressif.com/en/products/software/esp-sdk/resource ... need to have make installed , i not have ...
 
 https://github.com/pfalcon/esp-open-sdk ... https://github.com/jcmvbkbc/gcc-xtensa ... https://github.com/jcmvbkbc/crosstool-NG
 
