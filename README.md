@@ -28,7 +28,7 @@ If run decompile.bat will decompile blink.cpp.o and save result in blink.cpp.txt
 
 https://github.com/esp8266/Arduino
 
-https://github.com/plerup/makeEspArduino
+https://github.com/plerup/makeEspArduino ... need make i i not have installed...
 
 https://www.espressif.com/en/products/software/esp-sdk/resource
 
