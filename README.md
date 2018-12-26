@@ -23,6 +23,10 @@ https://github.com/pfalcon/esp-open-sdk ... https://github.com/jcmvbkbc/gcc-xten
 
 https://bbs.espressif.com/viewtopic.php?t=838
 
+26.12.2018
+
+http://gnuwin32.sourceforge.net/packages/make.htm ... https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download
+
 
 
 
