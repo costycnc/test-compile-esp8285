@@ -27,7 +27,7 @@ https://bbs.espressif.com/viewtopic.php?t=838
 
 http://gnuwin32.sourceforge.net/packages/make.htm ... https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download
 
-https://atom.io/ ... https://github.com/esp8266/Arduino
+https://atom.io/ (128mb) ... https://github.com/esp8266/Arduino (27mb zip)
 
 
 
