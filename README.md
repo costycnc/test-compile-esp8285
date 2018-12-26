@@ -48,6 +48,14 @@ http://gnuwin32.sourceforge.net/packages/make.htm
 
 installed C:\Program Files\GnuWin32    in windows path >> add C:\Program Files\GnuWin32\bin
 
+I open dos windows and run make ... make functioning >>  
+
+C:\Users\costycnc>make
+
+make: *** No targets specified and no makefile found.  Stop.
+
+
+
 ---------------------------------------------------------------------------------------------------------------
 
 Until now i could not find a program to install and run make !!!
