@@ -54,6 +54,8 @@ C:\Users\costycnc>make
 
 make: *** No targets specified and no makefile found.  Stop.
 
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\bootloaders\eboot  makefile
+
 
 
 ---------------------------------------------------------------------------------------------------------------
