@@ -36,6 +36,7 @@ not success... need install another dependencies and I quit...
 I try with http://docs.platformio.org/page/core.html
 
 another try ... download python 2.7.15 https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi (18.4mb) ... 
+download https://github.com/platformio/platformio-examples
 
 
 
