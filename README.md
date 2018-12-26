@@ -29,7 +29,7 @@ http://gnuwin32.sourceforge.net/packages/make.htm ... https://sourceforge.net/pr
 
 Until now i could not find a program to install and run make !!!
 
-install with platformio https://platformio.org/platformio-ide ...platform io for atom.io ... https://atom.io/ (128mb) >> need netframework 4.5.2 https://www.microsoft.com/en-us/download/details.aspx?id=42642 (72mb prefered to install first!!!) ... https://github.com/esp8266/Arduino (27mb zip)
+install with platformio https://platformio.org/platformio-ide ...for install platformio need platform atom.io ... https://atom.io/ (128mb) >> for install atom.io need netframework 4.5.2 https://www.microsoft.com/en-us/download/details.aspx?id=42642 (72mb prefered to install first!!!) ... https://github.com/esp8266/Arduino (27mb zip)
 
 
 
