@@ -1,4 +1,17 @@
 # test-compile-esp8285
+
+I try from many years to find a small windows program with that i can compile files with make ...
+
+I find many hudge programs with too much dependencies and i install, i install and finished with a dependencies that not found
+
+or or which can not be installed !
+
+This file is created for not repeat same old mistakes!
+
+---------------------------------------------------------------------------
+
+But i find a rapid mode to compile files used arduino esp8266 ... practically i watch how arduino compile and i find these...
+
 I try to compile esp8285 manually with a simple cpp file 
 
 I have installed arduino in C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows portable
