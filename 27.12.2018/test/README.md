@@ -26,6 +26,6 @@ i make test1.bat without library that not needed
 
 I make a copy a Blink.cpp >> Blink1.cpp
 
-Test1 bat compile Blink1.cpp without unnecesary library and Blink.cpp.d is big than Blink1.cpp.g 
+Test1 bat compile Blink1.cpp without unnecesary library and Blink.cpp.d is big than Blink1.cpp.d 
 
 Result that compiler put lirary more that is needed i dont know that this not concur to result big bin bile!!! 
