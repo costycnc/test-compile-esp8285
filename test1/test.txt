@@ -1,0 +1,13 @@
+
+test.cpp.o:     file format elf32-xtensa-le
+
+
+Disassembly of section .text._Z5setupv:
+
+00000000 <setup()>:
+   0:	f00d      	ret.n
+
+Disassembly of section .text._Z4loopv:
+
+00000000 <loop()>:
+   0:	f00d      	ret.n
