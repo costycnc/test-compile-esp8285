@@ -28,3 +28,5 @@ I thing that -I is include folders
 
 I not understand -IC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/core ... mean that arduino presave in this folder same files first to begin compile?
 
+I create file test.bat where i put first line 
+
