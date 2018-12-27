@@ -9,3 +9,15 @@ In test.bat not remain any library folder ... and compiled succesfully!
 nee to retest o to elf
 
 esptool.exe insert a boot.elf ... need try without boot.elf
+
+----------------------------------------------------------------------------------------------------------
+
+https://www.esp8266.com/viewtopic.php?f=8&t=7586
+
+I have this command line for esptool added to boards.txt:
+
+generic.menu.FlashSize.4M.recipe.objcopy.hex.pattern="{runtime.tools.esptool.path}/{compiler.esptool.cmd}" -eo "{build.path}/{build.project_name}.elf" -bo "{build.path}/{build.project_name}.bin" -bm {build.flash_mode} -bf {build.flash_freq} -bz {build.flash_size} -bs .text -bs .data -bs .rodata -bc -ec
+
+-----------------------------------------------------------------------------------------------------------
+
+
