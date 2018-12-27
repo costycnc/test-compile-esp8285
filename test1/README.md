@@ -20,4 +20,8 @@ generic.menu.FlashSize.4M.recipe.objcopy.hex.pattern="{runtime.tools.esptool.pat
 
 -----------------------------------------------------------------------------------------------------------
 
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\bin 
+
+is gcc ,g++ and another important programs
+
 
