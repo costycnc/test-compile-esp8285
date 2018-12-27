@@ -20,4 +20,12 @@ I delete -IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware
 
 -IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\variants\generic ... yes brocking not find pins_arduino.h
 
-test1.bat is file without library that not needed
+---------------------------------------------------------------------------------------
+
+i make test1.bat without library that not needed
+
+I make a copy a Blink.cpp >> Blink1.cpp
+
+Test1 bat compile Blink1.cpp without unnecesary library and Blink.cpp.d is big than Blink1.cpp.g 
+
+Result that compiler put lirary more that is needed i dont know that this not concur to result big bin bile!!! 
