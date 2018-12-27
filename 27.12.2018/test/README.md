@@ -9,3 +9,15 @@ Opened i see that Blink.cpp.d contain all link to include files ...
 I delete -IC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/core and bat file build the two files...
 
 mean that -IC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/core not broke anything
+
+I delete -IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/include... yes brocking not find c_types.h
+
+-IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/lwip2/include ... not brocking
+
+-IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/libc/xtensa-lx106-elf/include... not
+
+-IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\cores\esp8266... yes brockhing not find arduino.h
+
+-IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\variants\generic ... yes brocking not find pins_arduino.h
+
+test1.bat is file without library that not needed
