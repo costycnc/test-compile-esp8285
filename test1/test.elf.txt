@@ -1,0 +1,3 @@
+
+test.cpp.elf:     file format elf32-xtensa-le
+

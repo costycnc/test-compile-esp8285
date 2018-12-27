@@ -20,8 +20,12 @@
 void setup();
 void loop();
 #line 18
-void setup() {}
+void setup() {
+asm("  movi.n  a5, 100");
+}
 
                                                      
-void loop() {}
+void loop() {
+asm("  movi.n  a4, 120");
+}
 
