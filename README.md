@@ -83,11 +83,8 @@ until today i not can fin yet a sample program with can run make ... so ... i us
 
 blink ... i create a folder 27.12.2018 where put all files for this experiment
 
-I open blink file from Arduino File/Examples/01.Basics/Blink  and in Files/Preferences i select "Show verbose during:" compilation and
+See readme file in folder 27.12.2018
 
-upload
-
-When compile result lines of compiled that i copy and paste to blink_tot.txt
 
 
 
