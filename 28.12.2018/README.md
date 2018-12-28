@@ -42,7 +42,11 @@ C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/arduino.ar
 
 -LC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp
 
+-----------------------------------------------------------------------------------------------------------------
+
 I need understand how working!
+
+------------------------------------------------------------------------------------------------------------------
 
 For this i download xtensa-lx106-elf-gcc.exe and libiconv-2.dll from C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/
 
