@@ -1,27 +1,103 @@
--IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/include  delete without problem
+run compile_cpp_to_o.bat ... will compile test.cpp to test.cpp.d (contain library address) and test.cpp.o  (contain compiled code)
 
--IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\cores\esp8266 delete without problem
+In compile_o_to_elf_tot.bat i run :
 
--IC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\variants\generic delete without problem
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-gcc 
+-g -w 
+-Os -nostdlib 
+-Wl,--no-check-sections 
+-u call_user_start 
+-u _printf_float 
+-u _scanf_float 
+-Wl,-static 
+-LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/lib 
 
-In test.bat not remain any library folder ... and compiled succesfully!
+-LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/ld 
 
-nee to retest o to elf
+-LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/libc/xtensa-lx106-elf/lib 
 
-esptool.exe insert a boot.elf ... need try without boot.elf
+-Teagle.flash.1m512.ld 
 
-----------------------------------------------------------------------------------------------------------
+-Wl,--gc-sections 
+-Wl,-wrap,system_restart_local 
+-Wl,-wrap,spi_flash_read 
 
-https://www.esp8266.com/viewtopic.php?f=8&t=7586
+-o C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/Blink.cpp.elf 
 
-I have this command line for esptool added to boards.txt:
+-Wl,--start-group
 
-generic.menu.FlashSize.4M.recipe.objcopy.hex.pattern="{runtime.tools.esptool.path}/{compiler.esptool.cmd}" -eo "{build.path}/{build.project_name}.elf" -bo "{build.path}/{build.project_name}.bin" -bm {build.flash_mode} -bf {build.flash_freq} -bz {build.flash_size} -bs .text -bs .data -bs .rodata -bc -ec
+ C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp\Blink.cpp.o 
 
------------------------------------------------------------------------------------------------------------
+C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/arduino.ar 
 
-C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2\xtensa-lx106-elf\bin 
+-lhal -lphy -lpp -lnet80211 -llwip2 -lwpa -lcrypto -lmain -lwps -laxtls -lespnow -lsmartconfig -lairkiss -lwpa2 -lstdc++ -lm -lc -lgcc 
 
-is gcc ,g++ and another important programs
+-Wl,--end-group 
 
+-LC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp
+
+I need understand how working!
+
+For this i download xtensa-lx106-elf-gcc.exe and libiconv-2.dll from C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/
+
+I create xtensa-lx106-elf-gcc_help.bat for see commands!
+
+In xtensa-lx106-elf-gcc_help.txt i have all commands!
+
+Now understand commands:
+
+ -g -w
+
+help:Options starting with -g, -f, -m, -O, -W, or --param are automatically
+ passed on to the various sub-processes invoked by xtensa-lx106-elf-gcc.  In ord
+er to pass
+ other options on to these processes the -W<letter> options must be used.
+
+-------------------------------------------------------
+
+-Os -nostdlib i dont know
+
+-----------------------------------------------------
+-Wl,--no-check-sections  
+
+help: 
+  -Wl,<options>  Pass comma-separated <options> on to the linker
+
+----------------------------------------------------------
+
+-u call_user_start -u _printf_float -u _scanf_float i dont know
+
+----------------------------------------------------------------
+
+-Wl,-static (see above)
+
+----------------------------------------------------------------
+
+-LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/lib
+
+L is not in help but i thing that is include libraries
+ 
+----------------------------------------------------------------
+
+-Teagle.flash.1m512.ld i do not understand ... but i thing that is memory declared 1mega ram 512kb spiffs
+
+----------------------------------------------------------------
+
+-o C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/Blink.cpp.elf 
+
+help: -o <file>   Place the output into <file>
+
+----------------------------------------------------------------
+
+ C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp\Blink.cpp.o 
+
+File that need to be compiled
+
+----------------------------------------------------------------
+
+-lhal -lphy -lpp -lnet80211 -llwip2 -lwpa -lcrypto -lmain -lwps -laxtls -lespnow -lsmartconfig -lairkiss -lwpa2 -lstdc++ -lm -lc -lgcc
+
+I dont know ... but i thing that is libraries!
+
+---------------------------------------------------------------
 

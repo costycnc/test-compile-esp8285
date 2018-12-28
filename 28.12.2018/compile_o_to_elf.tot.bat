@@ -1,0 +1,5 @@
+echo off
+cls
+
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-gcc -g -w -Os -nostdlib -Wl,--no-check-sections -u call_user_start -u _printf_float -u _scanf_float -Wl,-static -LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/lib -LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/ld -LC:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1/tools/sdk/libc/xtensa-lx106-elf/lib -Teagle.flash.1m512.ld -Wl,--gc-sections -Wl,-wrap,system_restart_local -Wl,-wrap,spi_flash_read -o C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/Blink.cpp.elf -Wl,--start-group C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp\Blink.cpp.o C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp/arduino.ar -lhal -lphy -lpp -lnet80211 -llwip2 -lwpa -lcrypto -lmain -lwps -laxtls -lespnow -lsmartconfig -lairkiss -lwpa2 -lstdc++ -lm -lc -lgcc -Wl,--end-group -LC:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp
+Pause 0
