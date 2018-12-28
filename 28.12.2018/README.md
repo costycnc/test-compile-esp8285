@@ -1,3 +1,9 @@
+Undertand how make bin file for esp8285 manually ... 
+
+I try to understand how arduino make bin file... and i understand that is 3 stages ... cpp to o > o to elf > elf to bin
+
+I begin with:
+
 run compile_cpp_to_o.bat ... will compile test.cpp to test.cpp.d (contain library address) and test.cpp.o  (contain compiled code)
 
 In compile_o_to_elf_tot.bat i run :
