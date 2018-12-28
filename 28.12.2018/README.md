@@ -1,6 +1,6 @@
 Undertand how make bin file for esp8285 manually ... 
 
-I try to understand how arduino make bin file... and i understand that is 3 stages ... cpp to o > o to elf > elf to bin
+I try to understand how arduino make bin file... and i understand that is 3 stages ... cpp to o and d > o to elf > elf to bin
 
 I begin with:
 
