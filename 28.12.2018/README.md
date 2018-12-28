@@ -1,5 +1,7 @@
 Undertand how make bin file for esp8285 manually ... 
 
+(after i see interesting example here https://www.instructables.com/id/Blink-for-ESP8266-native-like-arduino-using-Window/  )
+
 I try to understand how arduino make bin file... and i understand that is 3 stages ... cpp to o and d > o to elf > elf to bin
 
 I begin with:
