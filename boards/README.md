@@ -128,6 +128,37 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json i find these fil
    
    
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x1.jpg)
+
+Link for download i find in http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+For example link for below:
+
+https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz
+
+is there in json file ...
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x2.jpg)
+
+link to all folders:
+
+https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
+
+https://github.com/igrr/esptool-ck/releases/download/0.4.13/esptool-0.4.13-win32.zip
+
+https://github.com/igrr/mkspiffs/releases/download/0.2.0/mkspiffs-0.2.0-no_magic_length-windows.zip  for spiffs
+
+https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz
+
+
+
+
+
+
+
+
+
+
+
      
      
      
