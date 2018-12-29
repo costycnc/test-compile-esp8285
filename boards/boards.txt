@@ -1,0 +1,81 @@
+#
+# this file is script-generated and is likely to be overwritten by boards.txt.py
+#
+
+menu.BoardModel=Model
+menu.UploadSpeed=Upload Speed
+menu.CpuFrequency=CPU Frequency
+menu.CrystalFreq=Crystal Frequency
+menu.FlashSize=Flash Size
+menu.FlashMode=Flash Mode
+menu.FlashFreq=Flash Frequency
+menu.ResetMethod=Reset Method
+menu.ESPModule=Module
+menu.Debug=Debug port
+menu.DebugLevel=Debug Level
+menu.LwIPVariant=lwIP Variant
+menu.led=Builtin Led
+menu.FlashErase=Erase Flash
+
+
+##############################################################
+esp8285.name=Generic ESP8285 Module
+esp8285.build.board=ESP8266_ESP01
+esp8285.upload.tool=esptool
+esp8285.upload.maximum_data_size=81920
+esp8285.upload.wait_for_upload_port=true
+esp8285.upload.erase_cmd=
+esp8285.serial.disableDTR=true
+esp8285.serial.disableRTS=true
+esp8285.build.mcu=esp8266
+esp8285.build.core=esp8266
+esp8285.build.variant=generic
+esp8285.build.spiffs_pagesize=256
+esp8285.build.debug_port=
+esp8285.build.debug_level=
+
+esp8285.menu.CpuFrequency.80=80 MHz
+esp8285.menu.CpuFrequency.80.build.f_cpu=80000000L
+
+esp8285.menu.ResetMethod.nodemcu=nodemcu
+esp8285.menu.ResetMethod.nodemcu.upload.resetmethod=nodemcu
+
+esp8285.menu.CrystalFreq.26=26 MHz
+
+esp8285.build.flash_mode=dout
+esp8285.build.flash_freq=40
+
+esp8285.menu.FlashSize.1M512=1M (512K SPIFFS)
+esp8285.menu.FlashSize.1M512.build.flash_size=1M
+esp8285.menu.FlashSize.1M512.build.flash_size_bytes=0x100000
+esp8285.menu.FlashSize.1M512.build.flash_ld=eagle.flash.1m512.ld
+esp8285.menu.FlashSize.1M512.build.spiffs_pagesize=256
+esp8285.menu.FlashSize.1M512.upload.maximum_size=499696
+esp8285.menu.FlashSize.1M512.build.rfcal_addr=0xFC000
+esp8285.menu.FlashSize.1M512.build.spiffs_start=0x7B000
+esp8285.menu.FlashSize.1M512.build.spiffs_end=0xFB000
+esp8285.menu.FlashSize.1M512.build.spiffs_blocksize=8192
+
+esp8285.menu.led.2=2
+esp8285.menu.led.2.build.led=-DLED_BUILTIN=2
+
+esp8285.menu.LwIPVariant.v2mss536=v2 Lower Memory
+esp8285.menu.LwIPVariant.v2mss536.build.lwip_include=lwip2/include
+esp8285.menu.LwIPVariant.v2mss536.build.lwip_lib=-llwip2
+esp8285.menu.LwIPVariant.v2mss536.build.lwip_flags=-DLWIP_OPEN_SRC -DTCP_MSS=536
+
+esp8285.menu.LwIPVariant.OpenSource.recipe.hooks.sketch.prebuild.1.pattern=make -C "{runtime.platform.path}/tools/sdk/lwip/src" install TOOLS_PATH="{runtime.tools.xtensa-lx106-elf-gcc.path}/bin/xtensa-lx106-elf-"
+
+esp8285.menu.Debug.Disabled=Disabled
+esp8285.menu.Debug.Disabled.build.debug_port=
+
+esp8285.menu.DebugLevel.None____=None
+esp8285.menu.DebugLevel.None____.build.debug_level=
+
+esp8285.menu.FlashErase.none=Only Sketch
+esp8285.menu.FlashErase.none.upload.erase_cmd=
+
+esp8285.menu.UploadSpeed.921600=921600
+esp8285.menu.UploadSpeed.921600.upload.speed=921600
+
+
