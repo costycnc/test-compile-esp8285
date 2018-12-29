@@ -1,4 +1,6 @@
-# http://gnutoolchains.com/esp8266/
+http://gnutoolchains.com/esp8266/
+
+-------------------------------------------------------------------
 
 Working with make is simple ... if make file runs corectly ... 
 
