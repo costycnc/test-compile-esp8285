@@ -70,6 +70,28 @@ save and open arduino from new folder:
 
 I understand that arduino can working with additional board manager at C:\Users\costycnc\AppData\Roaming\Arduino15
 
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/6.jpg)
+
+You can install aditional board with arduino ... but for me is sample to put package at address where i want , and modify path to 
+
+this address from C:\Users\costycnc\AppData\Roaming\Arduino15/preferences.txt
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/7.jpg)
+
+I download package from https://github.com/esp8266/Arduino/releases/download/2.0.0/esp8266-2.0.0.zip 
+
+The package is downloaded and unzipped in Downloads folder:
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/8.jpg)
+
+
+
+
+
+
+
+
+
 
 
 
