@@ -74,6 +74,8 @@ https://github.com/esp8266/Arduino
 
 https://arduino-esp8266.readthedocs.io/en/latest/eclipse/eclipse.html
 
+https://ip.cadence.com/uploads/103/SWdev-pdf
+
 
 
 
