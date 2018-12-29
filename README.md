@@ -1,4 +1,4 @@
-#C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\board.txt
+# C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\board.txt
 
 # test-compile-esp8285
 
