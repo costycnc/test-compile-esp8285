@@ -120,7 +120,16 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json i find these fil
      
      -
      
-     Is file for any os like windows,linux,mac,ecc
+   Is file for any os like windows,linux,mac,ecc
+     
+   when install http://arduino.esp8266.com/stable/package_esp8266com_index.json with arduino ... in 
+   
+   C:\Users\costycnc\AppData\Roaming\Arduino15\staging\packages find all packages that need to install
+   
+   
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x1.jpg)
+     
+     
      
      
      
