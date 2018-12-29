@@ -20,6 +20,8 @@ C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.
 
 # Change path
 
+# I make test with windows7 32bit ... i dont know if working with another system or settings
+
 I have installed arduino portable in C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
 
 So ... {ARDUINO} same to be C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
