@@ -147,9 +147,16 @@ https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
 
 https://github.com/igrr/esptool-ck/releases/download/0.4.13/esptool-0.4.13-win32.zip
 
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x4.jpg)
+
 https://github.com/igrr/mkspiffs/releases/download/0.2.0/mkspiffs-0.2.0-no_magic_length-windows.zip  for spiffs
 
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x5.jpg)
+
 https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x6.jpg)
+
 
 
 
