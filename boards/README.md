@@ -64,9 +64,11 @@ compiler.path=C:/Users/costycnc/Documents/test/hardware/tools/avr/bin/
 
 save and open arduino from new folder:
 
-
-
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/5.jpg)
+
+# Compile esp8285 with arduino
+
+I understand that arduino can working with additional board manager at C:\Users\costycnc\AppData\Roaming\Arduino15
 
 
 
