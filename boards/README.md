@@ -58,9 +58,11 @@ compiler.path=C:/Users/costycnc/Documents/test/hardware/tools/avr/bin/
 
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/3a.jpg)
 
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/4.jpg)
+
 save and open arduino from new folder:
 
-![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/4.jpg)
+
 
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/5.jpg)
 
