@@ -1,0 +1,1 @@
+https://github.com/esp8266/Arduino/releases/download/2.0.0/esp8266-2.0.0.zip
