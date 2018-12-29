@@ -34,6 +34,17 @@ C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
 
 Now i try to change path in {ARDUINO}/hardware/arduino/platform.txt
 
+Here is original text:
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/2.jpg)
+
+I moved all arduino files from C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5 to
+
+C:\Users\costycnc\Documents\test
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/3.jpg)
+
+
 
 
 
