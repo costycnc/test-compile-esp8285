@@ -26,6 +26,14 @@ So ... {ARDUINO} same to be C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows
 
 {ARDUINO}/hardware/arduino/platform.txt
 
+So...now when compile arduino nano ... blink for examples ... all compiled lines begin with :
+
+C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
+
+
+
+
+
 
 
 
