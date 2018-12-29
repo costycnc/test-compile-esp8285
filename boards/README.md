@@ -84,35 +84,35 @@ https://ip.cadence.com/uploads/103/SWdev-pdf
 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json i find these files for download:
 
-     https://github.com/esp8266/Arduino/releases/download/2.0.0/esp8266-2.0.0.zip
+  https://github.com/esp8266/Arduino/releases/download/2.0.0/esp8266-2.0.0.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.3.0/esp8266-2.3.0.zip
+   https://github.com/esp8266/Arduino/releases/download/2.3.0/esp8266-2.3.0.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.4.0-rc2/esp8266-2.4.0-rc2.zip
+   https://github.com/esp8266/Arduino/releases/download/2.4.0-rc2/esp8266-2.4.0-rc2.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.4.0-rc1/esp8266-2.4.0-rc1.zip
+   https://github.com/esp8266/Arduino/releases/download/2.4.0-rc1/esp8266-2.4.0-rc1.zip
 
-     http://arduino.esp8266.com/versions/1.6.5-947-g39819f0/esp8266-1.6.5-947-g39819f0.zip
+   http://arduino.esp8266.com/versions/1.6.5-947-g39819f0/esp8266-1.6.5-947-g39819f0.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.2.0/esp8266-2.2.0.zip
+   https://github.com/esp8266/Arduino/releases/download/2.2.0/esp8266-2.2.0.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.4.2/esp8266-2.4.2.zip
+   https://github.com/esp8266/Arduino/releases/download/2.4.2/esp8266-2.4.2.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
+   https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.4.0/esp8266-2.4.0.zip
+   https://github.com/esp8266/Arduino/releases/download/2.4.0/esp8266-2.4.0.zip
 
-     https://github.com/esp8266/Arduino/releases/download/2.5.0-beta1/esp8266-2.5.0-beta1.zip
+   https://github.com/esp8266/Arduino/releases/download/2.5.0-beta1/esp8266-2.5.0-beta1.zip
      
-     https://github.com/esp8266/Arduino/releases/download/2.1.0/esp8266-2.1.0.zip
+   https://github.com/esp8266/Arduino/releases/download/2.1.0/esp8266-2.1.0.zip
      
-     https://github.com/esp8266/Arduino/releases/download/2.5.0-beta2/esp8266-2.5.0-beta2.zip
+   https://github.com/esp8266/Arduino/releases/download/2.5.0-beta2/esp8266-2.5.0-beta2.zip
      
-     https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz
+   https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz
      
-     https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz
+   https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz
      
-     https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz
+   https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz
      
      .
      
