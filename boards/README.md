@@ -78,6 +78,8 @@ https://arduino-esp8266.readthedocs.io/en/latest/eclipse/eclipse.html
 
 https://ip.cadence.com/uploads/103/SWdev-pdf
 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 
 
 
