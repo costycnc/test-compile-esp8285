@@ -18,4 +18,14 @@ http://arduino.esp8266.com/versions/2.5.0-beta2/package_esp8266com_index.json
 
 C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\boards.txt
 
+# Change path
+
+I have installed arduino portable in C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
+
+So ... {ARDUINO} same to be C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
+
+{ARDUINO}/hardware/arduino/platform.txt
+
+
+
 
