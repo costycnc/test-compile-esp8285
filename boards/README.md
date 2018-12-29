@@ -42,6 +42,10 @@ I moved all arduino files from C:\Users\costycnc\Documents\arduino-1.6.5-r5-wind
 
 C:\Users\costycnc\Documents\test
 
+And i modify in C:\Users\costycnc\Documents\test\hardware\arduino\avr/platform.txt
+
+Attention!!! Path need to be with "/" if is with "\" wil not working !!!!!!
+
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/3.jpg)
 
 
