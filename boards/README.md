@@ -30,7 +30,11 @@ So...now when compile arduino nano ... blink for examples ... all compiled lines
 
 C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
 
-See photo 1.jpg
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/1.jpg)
+
+Now i try to change path in {ARDUINO}/hardware/arduino/platform.txt
+
+
 
 
 
