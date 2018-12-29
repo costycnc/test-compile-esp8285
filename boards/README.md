@@ -143,6 +143,8 @@ link to all folders:
 
 https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
 
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x3.jpg)
+
 https://github.com/igrr/esptool-ck/releases/download/0.4.13/esptool-0.4.13-win32.zip
 
 https://github.com/igrr/mkspiffs/releases/download/0.2.0/mkspiffs-0.2.0-no_magic_length-windows.zip  for spiffs
