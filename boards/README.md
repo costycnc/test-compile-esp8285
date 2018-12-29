@@ -141,10 +141,22 @@ is there in json file ...
 
 link to all folders:
 
-https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip
+https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip is installed in 
+
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1
+
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x7.jpg)
 
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x3.jpg)
 
+---------------------------------------------------------------------------------------------------------
+
+another 3 packages is installed in C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x8.jpg)
+
+----------------------------------------------------------------------------------------
 https://github.com/igrr/esptool-ck/releases/download/0.4.13/esptool-0.4.13-win32.zip
 
 ![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/x4.jpg)
