@@ -44,9 +44,27 @@ C:\Users\costycnc\Documents\test
 
 And i modify in C:\Users\costycnc\Documents\test\hardware\arduino\avr/platform.txt
 
-Attention!!! Path need to be with "/" if is with "\" wil not working !!!!!!
+Need to find bin directory ... in my arduino package the bin directory is at :
 
-![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/3.jpg)
+C:\Users\costycnc\Documents\test\hardware\tools\avr\bin
+
+Attention!!! Path need to be with "\" if is with "/" wil not working !!!!!!
+
+So i change path in platform.txt (attention !!! platform.txt from new package !!!)
+
+So i change "\" with "/" ... result is:
+
+compiler.path=C:/Users/costycnc/Documents/test/hardware/tools/avr/bin/
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/3a.jpg)
+
+save and open arduino from new folder:
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/4.jpg)
+
+![alt text](https://github.com/costycnc/test-compile-esp8285/blob/master/boards/5.jpg)
+
+
 
 
 
