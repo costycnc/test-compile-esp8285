@@ -1,3 +1,5 @@
+#C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\board.txt
+
 # test-compile-esp8285
 
 I try from many years to find a small windows program with that i can compile files with make ...
