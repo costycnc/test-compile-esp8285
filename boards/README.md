@@ -70,6 +70,8 @@ save and open arduino from new folder:
 
 # Compile esp8285 with arduino
 
+https://github.com/esp8266/Arduino
+
 https://arduino-esp8266.readthedocs.io/en/latest/eclipse/eclipse.html
 
 
