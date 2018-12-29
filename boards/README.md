@@ -13,3 +13,9 @@ https://github.com/esp8266/Arduino/releases/download/2.0.0/esp8266-2.0.0.zip
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 http://arduino.esp8266.com/versions/2.5.0-beta2/package_esp8266com_index.json
+
+{ARDUINO}/hardware/arduino/boards.txt
+
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\boards.txt
+
+
