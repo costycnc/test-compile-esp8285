@@ -6,7 +6,11 @@ C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\a
 
 
 
-platform.txt is platform1.txt with path modified for windows documents:
+platform.txt is platform_esp8266.txt with path modified for windows documents:
+
+
+
+
 
 
 
