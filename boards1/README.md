@@ -22,20 +22,15 @@ contains folders : bootloaders,cores,liraries,tests,tools and variants
 platform.txt is platform_esp8266.txt with path modified for windows documents:
 
 
-
-
-
-
-
-
-
-
+compiler.path=C:/Users/costycnc/Documents/esp8266/bin/
+compiler.sdk.path=C:/Users/costycnc/Documents/tools/tools/sdk
+compiler.libc.path=C:/Users/costycnc/Documents/tools/tools/sdk/libc/xtensa-lx106-elf
 
 My arduino location is C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5
 
 The platform.txt is in C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr
 
-Find and replaces platform.txt .
+Find and replaces platform.txt with modified path lines!
 
 Download https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz and use https://www.7-zip.org/download.html for extract files!
 
