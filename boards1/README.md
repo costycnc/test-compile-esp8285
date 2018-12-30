@@ -23,6 +23,7 @@ platform.txt is platform_esp8266.txt with path modified for windows documents:
 
 
 compiler.path=C:/Users/costycnc/Documents/esp8266/bin/
+
 compiler.sdk.path=C:/Users/costycnc/Documents/tools/tools/sdk
 compiler.libc.path=C:/Users/costycnc/Documents/tools/tools/sdk/libc/xtensa-lx106-elf
 
