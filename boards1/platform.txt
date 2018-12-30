@@ -24,7 +24,8 @@ build.lwip_flags=-DLWIP_OPEN_SRC
 build.float=-u _printf_float -u _scanf_float
 build.led=
 
-compiler.path={runtime.tools.xtensa-lx106-elf-gcc.path}/bin/
+# compiler.path={runtime.tools.xtensa-lx106-elf-gcc.path}/bin/
+compiler.path=%USERPROFILE%/My Documents/bin
 compiler.sdk.path={runtime.platform.path}/tools/sdk
 compiler.libc.path={runtime.platform.path}/tools/sdk/libc/xtensa-lx106-elf
 compiler.cpreprocessor.flags=-D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__ "-I{compiler.sdk.path}/include" "-I{compiler.sdk.path}/{build.lwip_include}" "-I{compiler.libc.path}/include" "-I{build.path}/core"
