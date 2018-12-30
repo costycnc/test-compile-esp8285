@@ -4,9 +4,23 @@ C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp82661\hardware\esp8266\2
 platform_arduino.txt and boards_arduino.txt is file copied from platform.txt and boards.txt from
 C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr
 
+I copied from C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc all folders 
+and I paste to Documents and i rename folder to esp8266 and have 414 mb
+
+contiene folders: bin,lib,libexec,share,xtensa-lx106-elf
+
+i copied from C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266\hardware\esp8266\2.4.1 all folders
+and I pste to documents and i rename folder to tools ... have 44 mb
+
+contiene folders : bootloaders,cores,liraries,tests,tools and variants
+
 
 
 platform.txt is platform_esp8266.txt with path modified for windows documents:
+
+
+
+
 
 
 
