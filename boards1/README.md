@@ -1,4 +1,10 @@
-platform1.txt is file copied from C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp82661\hardware\esp8266\2.4.1
+platform_esp8266.txt and boards_esp8266 is file copied from  platform.txt and boards.txt from 
+C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp82661\hardware\esp8266\2.4.1
+
+platform_arduino.txt and boards_arduino.txt is file copied from platform.txt and boards.txt from
+C:\Users\costycnc\Documents\arduino-1.6.5-r5-windows\arduino-1.6.5-r5\hardware\arduino\avr
+
+
 
 platform.txt is platform1.txt with path modified for windows documents:
 
