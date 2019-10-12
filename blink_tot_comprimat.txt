@@ -1,0 +1,132 @@
+folder    C:\Users\costycnc\AppData\Roaming\Arduino15\packages\esp8266
+xtensag++ folder\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-g++
+xtensag   folder\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-gcc
+p1        folder\hardware\esp8266\2.4.1/tools/sdk/include
+p2        folder\hardware\esp8266\2.4.1/tools/sdk/lwip2/include
+p3        folder\hardware\esp8266\2.4.1/tools/sdk/libc/xtensa-lx106-elf/include
+p4        tmp/core
+p5        folder\hardware\esp8266\2.4.1\cores\esp8266
+p6        folder\hardware\esp8266\2.4.1\variants\generic
+pa        -D__ets__ -DICACHE_FLASH -U__STRICT_ANSI__
+pa1       -c -w -Os -g -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4
+pa2       -std=c++11 -MMD pa8
+pa3       -DTCP_MSS=536 -DARDUINO=10605 -DARDUINO_ESP8266_GENERIC -DARDUINO_ARCH_ESP8266
+pa4       -DARDUINO_BOARD="ESP8266_GENERIC" -DLED_BUILTIN=2 -DESP8266
+tmp       C:\Users\costycnc\AppData\Local\Temp\build3378903159558416982.tmp
+pa5       -c -g -x assembler-with-cpp -MMD -mlongcalls -DF_CPU=80000000L -DLWIP_OPEN_SRC
+pa6       -c -w -Os -g -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions
+pa7       -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=gnu99
+pa8       -ffunction-sections -fdata-sections -DF_CPU=80000000L -DLWIP_OPEN_SRC
+xtensaar  folder\tools\xtensa-lx106-elf-gcc\1.20.0-26-gb404fb9-2/bin/xtensa-lx106-elf-ar
+
+
+
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 tmp\Blink.cpp -o tmp\Blink.cpp.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa5 pa3 pa4 -Ip5 -Ip6 p5\cont.S -o tmp\cont.S.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\cont_util.c -o tmp\cont_util.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_eboot_command.c -o tmp\core_esp8266_eboot_command.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_flash_utils.c -o tmp\core_esp8266_flash_utils.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_i2s.c -o tmp\core_esp8266_i2s.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_noniso.c -o tmp\core_esp8266_noniso.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_phy.c -o tmp\core_esp8266_phy.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_postmortem.c -o tmp\core_esp8266_postmortem.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_si2c.c -o tmp\core_esp8266_si2c.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_timer.c -o tmp\core_esp8266_timer.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring.c -o tmp\core_esp8266_wiring.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring_analog.c -o tmp\core_esp8266_wiring_analog.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring_digital.c -o tmp\core_esp8266_wiring_digital.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring_pulse.c -o tmp\core_esp8266_wiring_pulse.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring_pwm.c -o tmp\core_esp8266_wiring_pwm.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_wiring_shift.c -o tmp\core_esp8266_wiring_shift.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\heap.c -o tmp\heap.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\libb64\cdecode.c -o tmp\cdecode.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\libb64\cencode.c -o tmp\cencode.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\libc_replacements.c -o tmp\libc_replacements.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\sntp-lwip2.c -o tmp\sntp-lwip2.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\spiffs\spiffs_cache.c -o tmp\spiffs_cache.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\spiffs\spiffs_check.c -o tmp\spiffs_check.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\spiffs\spiffs_gc.c -o tmp\spiffs_gc.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\spiffs\spiffs_hydrogen.c -o tmp\spiffs_hydrogen.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\spiffs\spiffs_nucleus.c -o tmp\spiffs_nucleus.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\time.c -o tmp\time.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\uart.c -o tmp\uart.c.o 
+xtensag pa -Ip1 -Ip2 -Ip3 -Ip4 pa6 pa7 pa8 pa3 pa4 -Ip5 -Ip6 p5\umm_malloc\umm_malloc.c -o tmp\umm_malloc.c.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\abi.cpp -o tmp\abi.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\base64.cpp -o tmp\base64.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\cbuf.cpp -o tmp\cbuf.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\core_esp8266_main.cpp -o tmp\core_esp8266_main.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\debug.cpp -o tmp\debug.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Esp-version.cpp -o tmp\Esp-version.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Esp.cpp -o tmp\Esp.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\FS.cpp -o tmp\FS.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\FunctionalInterrupt.cpp -o tmp\FunctionalInterrupt.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\HardwareSerial.cpp -o tmp\HardwareSerial.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\IPAddress.cpp -o tmp\IPAddress.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\MD5Builder.cpp -o tmp\MD5Builder.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\pgmspace.cpp -o tmp\pgmspace.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Print.cpp -o tmp\Print.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Schedule.cpp -o tmp\Schedule.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\spiffs_api.cpp -o tmp\spiffs_api.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\spiffs_hal.cpp -o tmp\spiffs_hal.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Stream.cpp -o tmp\Stream.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\StreamString.cpp -o tmp\StreamString.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Tone.cpp -o tmp\Tone.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\Updater.cpp -o tmp\Updater.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\WMath.cpp -o tmp\WMath.cpp.o 
+xtensag++ pa -Ip1 -Ip2 -Ip3 -Ip4 pa1 pa2 pa3 pa4 -Ip5 -Ip6 p5\WString.cpp -o tmp\WString.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\cont.S.o 
+xtensaar cru tmp/arduino.ar tmp\cont_util.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_eboot_command.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_flash_utils.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_i2s.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_noniso.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_phy.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_postmortem.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_si2c.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_timer.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring_analog.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring_digital.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring_pulse.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring_pwm.c.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_wiring_shift.c.o 
+xtensaar cru tmp/arduino.ar tmp\heap.c.o 
+xtensaar cru tmp/arduino.ar tmp\cdecode.c.o 
+xtensaar cru tmp/arduino.ar tmp\cencode.c.o 
+xtensaar cru tmp/arduino.ar tmp\libc_replacements.c.o 
+xtensaar cru tmp/arduino.ar tmp\sntp-lwip2.c.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_cache.c.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_check.c.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_gc.c.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_hydrogen.c.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_nucleus.c.o 
+xtensaar cru tmp/arduino.ar tmp\time.c.o 
+xtensaar cru tmp/arduino.ar tmp\uart.c.o 
+xtensaar cru tmp/arduino.ar tmp\umm_malloc.c.o 
+xtensaar cru tmp/arduino.ar tmp\abi.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\base64.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\cbuf.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\core_esp8266_main.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\debug.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Esp-version.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Esp.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\FS.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\FunctionalInterrupt.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\HardwareSerial.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\IPAddress.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\MD5Builder.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\pgmspace.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Print.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Schedule.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_api.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\spiffs_hal.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Stream.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\StreamString.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Tone.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\Updater.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\WMath.cpp.o 
+xtensaar cru tmp/arduino.ar tmp\WString.cpp.o 
+xtensag -g -w -Os -nostdlib -Wl,--no-check-sections -u call_user_start -u _printf_float -u _scanf_float -Wl,-static -Lfolder\hardware\esp8266\2.4.1/tools/sdk/lib -Lfolder\hardware\esp8266\2.4.1/tools/sdk/ld -Lfolder\hardware\esp8266\2.4.1/tools/sdk/libc/xtensa-lx106-elf/lib -Teagle.flash.1m512.ld -Wl,--gc-sections -Wl,-wrap,system_restart_local -Wl,-wrap,spi_flash_read -o tmp/Blink.cpp.elf -Wl,--start-group tmp\Blink.cpp.o tmp/arduino.ar -lhal -lphy -lpp -lnet80211 -llwip2 -lwpa -lcrypto -lmain -lwps -laxtls -lespnow -lsmartconfig -lairkiss -lwpa2 -lstdc++ -lm -lc -lgcc -Wl,--end-group -Ltmp 
+folder\tools\esptool\0.4.13/esptool.exe -eo folder\hardware\esp8266\2.4.1/bootloaders/eboot/eboot.elf -bo tmp/Blink.cpp.bin -bm qio -bf 40 -bz 1M -bs .text -bp 4096 -ec -eo tmp/Blink.cpp.elf -bs .irom0.text -bs .text -bs .data -bs .rodata -bc -ec 
+
+Sketch uses 246,327 bytes (49%) of program storage space. Maximum is 499,696 bytes.
